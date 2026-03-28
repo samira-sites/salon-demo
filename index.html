@@ -155,11 +155,11 @@
   <section id="gallery">
     <h2>Our Gallery</h2>
     <div class="gallery-grid hidden animate-up">
-      <img src="images/nail.jpg" alt="Nail Design 1" class="hidden animate-up">
-      <img src="images/nail2.jpg" alt="Nail Design 2" class="hidden animate-up">
-      <img src="images/nail3.jpg" alt="Nail Design 3" class="hidden animate-up">
-      <img src="images/nail4.jpg" alt="Nail Design 4" class="hidden animate-up">
-      <img src="images/nail5.jpeg" alt="Nail Design 5" class="hidden animate-up">
+      <img src="images/nail.webp" alt="Nail Design 1" class="hidden animate-up">
+      <img src="images/nail2.webp" alt="Nail Design 2" class="hidden animate-up">
+      <img src="images/nail3.webp" alt="Nail Design 3" class="hidden animate-up">
+      <img src="images/nail4.webp" alt="Nail Design 4" class="hidden animate-up">
+      <img src="images/nail5.webp" alt="Nail Design 5" class="hidden animate-up">
       <img src="images/nail6.webp" alt="Nail Design 6" class="hidden animate-up">
       <img src="images/nail7.webp" alt="Nail Design 7" class="hidden animate-up">
       <img src="images/nail8.webp" alt="Nail Design 8" class="hidden animate-up">
@@ -173,7 +173,7 @@
     <h2>About Us</h2>
     <div class="about-container hidden animate-up">
       <div class="about-image">
-        <img src="images/gallery.jpeg" alt="Salon">
+        <img src="images/about-image.webp" alt="Salon">
       </div>
       <div class="about-text">
         <h3>Luxury Nail Experience</h3>
@@ -187,34 +187,67 @@
     <button class="btn calendly-btn">Book Appointment</button>
   </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="contact">
-    <h2>Contact Us</h2>
-    <div class="contact-container">
-      <div class="contact-form hidden animate-up">
+ <!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
 
-        <form action="process_contact.php" method="POST" id="contactForm">
-          <input type="text" name="name" placeholder="Your Name" required>
-          <input type="email" name="email" placeholder="Your Email" required>
-          <input type="text" name="phone" placeholder="Phone">
-          <textarea name="message" placeholder="Your Message" required></textarea>
-          <button type="submit" class="btn" style="margin-bottom: 0;">Send Message</button>
-          <span id="responseMsg"></span>
-        </form>
-      </div>
-      <div class="contact-info hidden animate-up">
-        <div class="map">
-          <iframe src="https://www.google.com/maps?q=Kuwait&output=embed" width="100%" height="250" style="border:0;"
-            loading="lazy"></iframe>
-        </div>
-        <div class="info">
-          <p><strong>📍 Location:</strong> Kuwait City</p>
-          <p><strong>📞 Phone:</strong> +965 XXX XXXX</p>
-          <p><strong>✉ Email:</strong> hello@salon.com</p>
-        </div>
-      </div>
+  <div class="contact-container">
+
+    <!-- Contact Form -->
+    <div class="contact-form hidden animate-up">
+      <form action="process_contact.php" method="POST" id="contactForm">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="phone" placeholder="Phone">
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+        <span id="responseMsg"></span>
+      </form>
     </div>
-  </section>
+
+    <!-- Contact Info + Map -->
+    <div class="contact-info hidden animate-up">
+
+      <!-- Responsive Map -->
+      <div class="map">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3477.245604558393!2d47.961489674329016!3d29.363097075273693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3fcf84defe8c23bb%3A0xdf267f967e236de2!2sPanasonic%20Tower%2C%2016%20Fahad%20Al-Salem%20Street%2C%20Kuwait%20City!3m2!1d29.363097099999997!2d47.9640646!4m5!1s0x3fcf84defe8c23bb%3A0xdf267f967e236de2!2sPanasonic%20Tower%2C%2016%20Fahad%20Al-Salem%20Street%2C%20Kuwait%20City!3m2!1d29.363097099999997!2d47.9640646!5e0!3m2!1sen!2skw!4v1774712514530!5m2!1sen!2skw" 
+          allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+
+      <!-- Info -->
+      <div class="info">
+        <p>
+          <img src="svg/location.svg" alt="Location" class="icon"><strong> Kuwait</strong>
+        
+        </p>
+        
+        <p>
+          <img src="svg/phone.svg" alt="Phone" class="icon"><strong> +965 XXX XXXX</strong>
+         
+        </p>
+        
+        <p>
+          <img src="svg/email.svg" alt="Email" class="icon"><strong> hello@salon.com</strong>
+         
+        </p>
+
+        <a href="https://maps.app.goo.gl/nSTh3iMRCUiLUzZN8" target="_blank" class="btn small-btn">
+          Get Directions
+        </a>
+            <!-- Disclaimer -->
+    <p class="contact-disclaimer">
+      ⚠️ This location is for demo purposes only. Not a real salon.
+    </p>
+      </div>
+
+    </div>
+  
+  </div>
+
+  
+</section>
 
   <!-- FOOTER -->
   <footer>
