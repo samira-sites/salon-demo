@@ -188,7 +188,7 @@
   </section>
 
  <!-- CONTACT -->
-<section id="contact" class="contact">
+<section id="contact" class="contact"  style="padding-top: 1rem;">
   <h2 style="margin-top: 0;">Contact Us</h2>
 
   <div class="contact-container">
