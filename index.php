@@ -188,7 +188,7 @@
   </section>
 
  <!-- CONTACT -->
-<section id="contact" class="contact"  style="padding-top: 1rem;">
+<section id="contact" class="contact">
   <h2 style="margin-top: 0;">Contact Us</h2>
 
   <div class="contact-container">
@@ -239,7 +239,7 @@
          
         </p>
 
-            <!-- Disclaimer -->
+     <br>
     <p class="contact-disclaimer">
       ⚠️ This location is for demo purposes only. Not a real salon.
     </p>
