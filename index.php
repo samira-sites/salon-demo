@@ -50,7 +50,7 @@
   </header>
 
   <!-- HERO -->
-  <section class="hero hidden animate-up" id="hero" class="hero">
+  <section class="hero hidden animate-up" id="hero">
     <div class="hero-container">
       <div class="hero-text">
         <h1 class="hidden animate-up">Luxury Nail Care & Beauty</h1>
@@ -65,91 +65,91 @@
     </div>
   </section>
 
-  <!-- SERVICES -->
-  <section id="services" class="services">
-    <h2>Our Services</h2>
-    <div class="service-cards">
-      <div class="card hidden animate-up">
-        <h3>Manicure</h3>
-        <p>Classic nail care & polish</p>
-        <span class="price">$20</span>
-      </div>
-      <div class="card hidden animate-up">
-        <h3>Pedicure</h3>
-        <p>Relaxing foot care & polish</p>
-        <span class="price">$25</span>
-      </div>
-      <div class="card hidden animate-up">
-        <h3>Gel Nails</h3>
-        <p>Long-lasting gel finish</p>
-        <span class="price">$35</span>
-      </div>
-      <div class="card hidden animate-up">
-        <h3>Nail Art</h3>
-        <p>Custom designs & patterns</p>
-        <span class="price">From $10</span>
-      </div>
-      <div class="card hidden animate-up">
-        <h3>Acrylic Nails</h3>
-        <p>Durable & stylish extensions</p>
-        <span class="price">$40</span>
+ <!-- SERVICES -->
+<section id="services" class="services">
+  <h2>Our Services</h2>
+  <div class="service-cards">
+    <div class="card hidden animate-up">
+      <h3>Manicure</h3>
+      <p>Classic nail care & polish</p>
+      <span class="price">$20</span>
+    </div>
+    <div class="card hidden animate-up">
+      <h3>Pedicure</h3>
+      <p>Relaxing foot care & polish</p>
+      <span class="price">$25</span>
+    </div>
+    <div class="card hidden animate-up">
+      <h3>Gel Nails</h3>
+      <p>Long-lasting gel finish</p>
+      <span class="price">$35</span>
+    </div>
+    <div class="card hidden animate-up">
+      <h3>Nail Art</h3>
+      <p>Custom designs & patterns</p>
+      <span class="price">From $10</span>
+    </div>
+    <div class="card hidden animate-up">
+      <h3>Acrylic Nails</h3>
+      <p>Durable & stylish extensions</p>
+      <span class="price">$40</span>
+    </div>
+  </div>
+  <br>
+  <button class="btn calendly-btn">Book Appointment</button>
+</section>
+
+<!---   -TESTIMOIALS------>
+<section class="testimonials">
+  <h2>What Our Clients Say</h2>
+
+  <div class="testimonial-slider">
+
+    <div class="testimonial active">
+      <p>“Absolutely loved my nails. The attention to detail is unmatched.”</p>
+    
+      <div class="client">
+        <img src="https://i.pravatar.cc/80?img=5" alt="client">
+        <div>
+          <h4>Sheryl M.</h4>
+          <span>★ ★ ★ ★ ★</span>
+        </div>
       </div>
     </div>
-    <br>
-    <button class="btn calendly-btn">Book Appointment</button>
-  </section>
-
-  <!---   -TESTIMOIALS------>
-  <section class="testimonials">
-    <h2>What Our Clients Say</h2>
-
-    <div class="testimonial-slider">
-
-      <div class="testimonial active">
-        <p>“Absolutely loved my nails. The attention to detail is unmatched.”</p>
-
-        <div class="client">
-          <img src="https://i.pravatar.cc/80?img=5" alt="client">
-          <div>
-            <h4>Sheryl M.</h4>
-            <span>★ ★ ★ ★ ★</span>
-          </div>
+    
+    <div class="testimonial">
+      <p>“Elegant service and beautiful results. I’ll definitely come back.”</p>
+    
+      <div class="client">
+        <img src="https://i.pravatar.cc/80?img=32" alt="client">
+        <div>
+          <h4>Lina A.</h4>
+          <span>★ ★ ★ ★ ★</span>
         </div>
       </div>
-
-      <div class="testimonial">
-        <p>“Elegant service and beautiful results. I’ll definitely come back.”</p>
-
-        <div class="client">
-          <img src="https://i.pravatar.cc/80?img=32" alt="client">
-          <div>
-            <h4>Lina A.</h4>
-            <span>★ ★ ★ ★ ★</span>
-          </div>
+    </div>
+    
+    <div class="testimonial">
+      <p>“The best gel nails I’ve had. Clean, stylish, and long-lasting.”</p>
+    
+      <div class="client">
+        <img src="https://i.pravatar.cc/80?img=47" alt="client">
+        <div>
+          <h4>Jane D.</h4>
+          <span>★ ★ ★ ★ ★</span>
         </div>
       </div>
+    </div>
+  <div class="dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
 
-      <div class="testimonial">
-        <p>“The best gel nails I’ve had. Clean, stylish, and long-lasting.”</p>
-
-        <div class="client">
-          <img src="https://i.pravatar.cc/80?img=47" alt="client">
-          <div>
-            <h4>Jane D.</h4>
-            <span>★ ★ ★ ★ ★</span>
-          </div>
-        </div>
-      </div>
-      <div class="dots">
-        <span class="dot active"></span>
-        <span class="dot"></span>
-        <span class="dot"></span>
-      </div>
-
-      <p class="demo-note">
-        *Sample reviews for demonstration purposes
-      </p>
-  </section>
+  <p class="demo-note">
+    *Sample reviews for demonstration purposes
+  </p>
+</section>
 
   <!-- GALLERY -->
   <section id="gallery">
@@ -187,70 +187,67 @@
     <button class="btn calendly-btn">Book Appointment</button>
   </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="contact">
-    <h2 style="margin-top: 0;">Contact Us</h2>
+ <!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
 
-    <div class="contact-container">
+  <div class="contact-container">
 
-      <!-- Contact Form -->
-      <div class="contact-form hidden animate-up">
-        <form action="process_contact.php" method="POST" id="contactForm">
-          <input type="text" name="name" placeholder="Your Name" required>
-          <input type="email" name="email" placeholder="Your Email" required>
-          <input type="text" name="phone" placeholder="Phone">
-          <textarea name="message" placeholder="Your Message" required></textarea>
-          <button type="submit" class="btn">Send Message</button>
-          <span id="responseMsg"></span>
-        </form>
+    <!-- Contact Form -->
+    <div class="contact-form hidden animate-up">
+      <form action="process_contact.php" method="POST" id="contactForm">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="phone" placeholder="Phone">
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+        <span id="responseMsg"></span>
+      </form>
+    </div>
+
+    <!-- Contact Info + Map -->
+    <div class="contact-info hidden animate-up">
+
+      <!-- Responsive Map -->
+      <div class="map">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3477.245604558393!2d47.961489674329016!3d29.363097075273693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3fcf84defe8c23bb%3A0xdf267f967e236de2!2sPanasonic%20Tower%2C%2016%20Fahad%20Al-Salem%20Street%2C%20Kuwait%20City!3m2!1d29.363097099999997!2d47.9640646!4m5!1s0x3fcf84defe8c23bb%3A0xdf267f967e236de2!2sPanasonic%20Tower%2C%2016%20Fahad%20Al-Salem%20Street%2C%20Kuwait%20City!3m2!1d29.363097099999997!2d47.9640646!5e0!3m2!1sen!2skw!4v1774712514530!5m2!1sen!2skw" 
+          allowfullscreen="" loading="lazy">
+        </iframe>
       </div>
 
-      <!-- Contact Info + Map -->
-      <div class="contact-info hidden animate-up">
+      <!-- Info -->
+      <div class="info">
+        <p>
+          <img src="svg/location.svg" alt="Location" class="icon"><strong> Kuwait</strong>
+        
+        </p>
+        
+        <p>
+          <img src="svg/phone.svg" alt="Phone" class="icon"><strong> +965 XXX XXXX</strong>
+         
+        </p>
+        
+        <p>
+          <img src="svg/email.svg" alt="Email" class="icon"><strong> hello@salon.com</strong>
+         
+        </p>
 
-        <!-- Responsive Map -->
-        <div class="map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3477.245604558393!2d47.961489674329016!3d29.363097075273693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3fcf84defe8c23bb%3A0xdf267f967e236de2!2sPanasonic%20Tower%2C%2016%20Fahad%20Al-Salem%20Street%2C%20Kuwait%20City!3m2!1d29.363097099999997!2d47.9640646!4m5!1s0x3fcf84defe8c23bb%3A0xdf267f967e236de2!2sPanasonic%20Tower%2C%2016%20Fahad%20Al-Salem%20Street%2C%20Kuwait%20City!3m2!1d29.363097099999997!2d47.9640646!5e0!3m2!1sen!2skw!4v1774712514530!5m2!1sen!2skw"
-            allowfullscreen="" loading="lazy">
-          </iframe>
-        </div>
-
-        <!-- Info -->
-        <div class="info">
-          <p>
-            <img src="svg/location.svg" alt="Location" class="icon"><a
-                href="https://maps.app.goo.gl/nSTh3iMRCUiLUzZN8" target="_blank" class="info-link">
-                Panasonic Tower, Kuwait
-              </a>
-          </p>
-
-          <p>
-            <img src="svg/phone.svg" alt="Phone" class="icon"><a href="tel:+965XXXXXXXX" class="info-link">
-                +965 XXX XXXX
-              </a>
-          </p>
-
-          <p>
-            <img src="svg/email.svg" alt="Email" class="icon"><a href="mailto:hello@salon.com"
-                class="info-link">
-                hello@nailluxe.com
-              </a>
-          </p>
-
-
-          <!-- Disclaimer -->
-          <p class="contact-disclaimer">
-            ⚠️ This location is for demo purposes only. Not a real salon.
-          </p>
-        </div>
-
+        <a href="https://maps.app.goo.gl/nSTh3iMRCUiLUzZN8" target="_blank" class="btn small-btn">
+          Get Directions
+        </a>
+            <!-- Disclaimer -->
+    <p class="contact-disclaimer">
+      ⚠️ This location is for demo purposes only. Not a real salon.
+    </p>
       </div>
 
     </div>
+  
+  </div>
 
-
-  </section>
+  
+</section>
 
   <!-- FOOTER -->
   <footer>
