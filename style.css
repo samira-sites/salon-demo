@@ -29,6 +29,11 @@ section {
 h2 {
  margin-bottom: 2rem;
 }
+@media(max-width: 768px){
+  section{
+    scroll-margin-top: 50px;
+  }
+}
 /* ================= HEADER ================= */
 .mobile-overlay {
   pointer-events: none;
