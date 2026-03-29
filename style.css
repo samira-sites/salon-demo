@@ -27,7 +27,7 @@ section {
   scroll-margin-top: 50px;
 }
 h2 {
-  margin-top: 2rem;
+ margin: 2rem 0;
 }
 /* ================= HEADER ================= */
 .mobile-overlay {
@@ -143,7 +143,7 @@ header .logo {
   right: 0;
   width: 57%;
   height: 53vh;
-  background: #000;
+  background: var(--accent);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -160,7 +160,7 @@ header .logo {
 }
 .mobile-menu a,
 .mobile-menu .btn {
-  color: var(--accent);
+  color: var(--secondary);
   font-size: 1rem;
   text-decoration: none;
   opacity: 0;
@@ -192,6 +192,7 @@ header .logo {
 .mobile-menu .btn {
   padding: 10px;
   transition: all 0.3s ease;
+  color: var(--accent);
 }
 
 .mobile-menu .btn:hover {
@@ -559,7 +560,7 @@ header .logo {
 /* ===== CONTACT ===== */
 #contact {
   background: #fff;
-  padding: 60px 20px;
+  padding: 40px 20px;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -577,6 +578,15 @@ header .logo {
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+@media (max-width:768px){
+  .contact-form{
+    padding: 20px 10px;
+  }
+  #contact h2{
+    margin-top: 0!important;
+   
+  }
+ 
 
 .contact-form:hover {
   transform: translateY(-5px);
@@ -649,28 +659,18 @@ header .logo {
   align-items: center;
   gap: 10px;
 }
-
-.info .icon {
-  font-size: 18px;
-}
-
-.btn.small-btn {
-  display: inline-block;
-  margin-top: 15px;
-  padding: 10px 20px;
-  font-size: 14px;
-  background: var(--primary);
-  color: #fff;
-  border-radius: 8px;
+.info-link {
+  color: #222;
   text-decoration: none;
-  text-align: center;
-  transition: background 0.3s ease, transform 0.3s ease;
+  transition: 0.3s;
 }
 
-.btn.small-btn:hover {
-  background: #ff4d85;
-  transform: translateY(-3px);
+.info-link:hover {
+  color: var(--primary);
+  text-decoration: underline;
+  opacity: 0.8;
 }
+
 
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
