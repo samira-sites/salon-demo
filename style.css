@@ -27,7 +27,7 @@ section {
   scroll-margin-top: 50px;
 }
 h2 {
-  margin-top: 2rem;
+  margin: 2rem 0;
 }
 /* ================= HEADER ================= */
 .mobile-overlay {
@@ -579,6 +579,12 @@ header .logo {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+@media (max-width: 768px){
+  .contact-form{
+    padding: 40px 10px;
+  }
+}
+
 .contact-form:hover {
   transform: translateY(-5px);
   box-shadow: 0 15px 40px rgba(0,0,0,0.15);
@@ -698,6 +704,18 @@ header .logo {
   margin-top: 10px;         
   font-style: italic;       
 }
+
+.info-link {
+  color: var(--secondary);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.info-link:hover {
+  color: var(--primary);
+  text-decoration: underline;
+  opacity: 0.8;
+}
 /* ===== FOOTER ===== */
 footer {
   background: #111;
@@ -793,7 +811,7 @@ footer {
   transform: translateY(30px);
 }
 .animate-up {
-  transition: opacity 0.8s ease-out, transform 1s ease-out;
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
   will-change: opacity, transform;
 }
 .show {

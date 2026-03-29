@@ -189,7 +189,7 @@
 
  <!-- CONTACT -->
 <section id="contact" class="contact">
-  <h2>Contact Us</h2>
+  <h2 style="margin-top: 0;">Contact Us</h2>
 
   <div class="contact-container">
 
@@ -219,23 +219,26 @@
       <!-- Info -->
       <div class="info">
         <p>
-          <img src="svg/location.svg" alt="Location" class="icon"><strong> Kuwait</strong>
+          <img src="svg/location.svg" alt="Location" class="icon"> <a href="https://maps.app.goo.gl/nSTh3iMRCUiLUzZN8" target="_blank" class="info-link">
+            Panasonic Tower, Kuwait
+          </a>
         
         </p>
         
         <p>
-          <img src="svg/phone.svg" alt="Phone" class="icon"><strong> +965 XXX XXXX</strong>
+          <img src="svg/phone.svg" alt="Phone" class="icon"> <a href="tel:+965XXXXXXXX" class="info-link">
+            +965 XXX XXXX
+          </a>
          
         </p>
         
         <p>
-          <img src="svg/email.svg" alt="Email" class="icon"><strong> hello@salon.com</strong>
+          <img src="svg/email.svg" alt="Email" class="icon"> <a href="mailto:hello@salon.com" class="info-link">
+            hello@nailluxe.com
+          </a>
          
         </p>
 
-        <a href="https://maps.app.goo.gl/nSTh3iMRCUiLUzZN8" target="_blank" class="btn small-btn">
-          Get Directions
-        </a>
             <!-- Disclaimer -->
     <p class="contact-disclaimer">
       ⚠️ This location is for demo purposes only. Not a real salon.
