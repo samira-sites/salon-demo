@@ -315,63 +315,98 @@ header .logo {
 .services {
   background: var(--accent);
 }
+
+/* ===== CARDS LAYOUT ===== */
 .service-cards {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  justify-content: center; /* center cards on wider screens */
+  justify-content: center;
 }
 
+/* ===== CARD ===== */
 .card {
-  background: #fff;
-  padding: 1.5rem;
+  position: relative;
+  overflow: hidden;
   border-radius: 12px;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-  flex: 1 1 250px; /* base width for card */
-  max-width: 300px; /* prevent card from being too wide */
-  text-align: center;
+  flex: 1 1 250px;
+  max-width: 300px;
+  cursor: pointer;
+  background: #000;
   transition: transform 0.3s, box-shadow 0.3s;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
+/* ===== IMAGE ===== */
+.card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+/* ===== HOVER EFFECT ===== */
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
 
+.card:hover img {
+  transform: scale(1.08);
+}
+
+/* ===== OVERLAY TEXT ===== */
+.card-content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  color: #fff;
+  text-align: left;
+
+  /* STRONG GRADIENT for readability on light images */
+  background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.2));
+}
+
+/* ===== TEXT SHADOW for extra readability ===== */
+.card-content h3,
+.card-content p,
+.card-content .price {
+  text-shadow: 0 1px 4px rgba(0,0,0,0.7);
+}
+
+/* ===== TEXT STYLE ===== */
 .card h3 {
   font-size: 1.2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
 }
 
 .card p {
-  font-size: 1rem;
-  margin-bottom: 0.8rem;
-  color: #555;
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+  color: #fff;
 }
 
 .price {
   display: inline-block;
   padding: 0.3rem 0.6rem;
-  background: var(--primary); 
+  background: var(--primary);
   color: #fff;
   font-weight: bold;
   border-radius: 0 10px 10px 10px;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 
-/* ===== RESPONSIVE BREAKPOINTS ===== */
+/* ===== RESPONSIVE ===== */
 @media (max-width: 900px) {
   .card {
-    flex: 1 1 45%; /* 2 cards per row on tablet */
+    flex: 1 1 45%;
   }
 }
 
 @media (max-width: 600px) {
   .card {
-    flex: 1 1 100%; /* stacked single card on mobile */
+    flex: 1 1 100%;
   }
 }
 /* ===== TESTIMONIALS ===== */

@@ -2,14 +2,46 @@
 <html lang="en">
 
 <head>
+
+  <!-- ===== META (always first) ===== -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Luxury Nail Salon</title>
+
+  <!-- ===== TITLE & SEO ===== -->
+  <title>Luxury Nail Salon | Modern Beauty Experience</title>
+
+  <meta name="description" content="Elegant nail salon offering manicure, pedicure, gel nails, and custom nail art. Modern design focused on beauty and client experience.">
+  <meta name="keywords" content="nail salon, manicure, pedicure, gel nails, nail art, beauty salon">
+  <meta name="author" content="Samira Omar">
+
+  <!-- ===== ROBOTS ===== -->
+  <meta name="robots" content="index, follow">
+
+  <!-- ===== OPEN GRAPH ===== -->
+  <meta property="og:title" content="Luxury Nail Salon | Beauty & Nail Care">
+  <meta property="og:description" content="Discover elegant nail care services including manicure, pedicure, gel nails, and custom nail art.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://samiraomar.com/">
+  <meta property="og:image" content="https://samiraomar.com/images/preview.jpg">
+  <meta property="og:site_name" content="Samira Omar">
+
+  <!-- ===== TWITTER ===== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Luxury Nail Salon Website">
+  <meta name="twitter:description" content="Modern nail salon design focused on beauty and client experience.">
+  <meta name="twitter:image" content="https://samiraomar.com/images/preview.jpg">
+
+  <!-- ===== FAVICON ===== -->
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+  <!-- ===== CSS ===== -->
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
-  <!--Calendly CSS-->
+
+  <!-- ===== CALENDLY ===== -->
   <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
 </head>
 
 <body>
@@ -66,39 +98,61 @@
   </section>
 
  <!-- SERVICES -->
-<section id="services" class="services">
+ <section id="services" class="services">
   <h2>Our Services</h2>
+
   <div class="service-cards">
+
     <div class="card hidden animate-up">
-      <h3>Manicure</h3>
-      <p>Classic nail care & polish</p>
-      <span class="price">$20</span>
+      <img src="images/services/manicure.jpeg" alt="Manicure">
+      <div class="card-content">
+        <h3>Manicure</h3>
+        <p>Classic nail care & polish</p>
+        <span class="price">$20</span>
+      </div>
     </div>
+
     <div class="card hidden animate-up">
-      <h3>Pedicure</h3>
-      <p>Relaxing foot care & polish</p>
-      <span class="price">$25</span>
+      <img src="images/services/pedicure.jpeg" alt="Pedicure">
+      <div class="card-content">
+        <h3>Pedicure</h3>
+        <p>Relaxing foot care & polish</p>
+        <span class="price">$25</span>
+      </div>
     </div>
+
     <div class="card hidden animate-up">
-      <h3>Gel Nails</h3>
-      <p>Long-lasting gel finish</p>
-      <span class="price">$35</span>
+      <img src="images/services/gel-nail2.jpeg" alt="Gel Nails">
+      <div class="card-content">
+        <h3>Gel Nails</h3>
+        <p>Long-lasting gel finish</p>
+        <span class="price">$35</span>
+      </div>
     </div>
+
     <div class="card hidden animate-up">
-      <h3>Nail Art</h3>
-      <p>Custom designs & patterns</p>
-      <span class="price">From $10</span>
+      <img src="images/services/nail-art.jpeg" alt="Nail Art">
+      <div class="card-content">
+        <h3>Nail Art</h3>
+        <p>Custom designs & patterns</p>
+        <span class="price">From $10</span>
+      </div>
     </div>
+
     <div class="card hidden animate-up">
-      <h3>Acrylic Nails</h3>
-      <p>Durable & stylish extensions</p>
-      <span class="price">$40</span>
+      <img src="images/services/acrylic.jpeg" alt="Acrylic Nails">
+      <div class="card-content">
+        <h3>Acrylic Nails</h3>
+        <p>Durable & stylish extensions</p>
+        <span class="price">$40</span>
+      </div>
     </div>
+
   </div>
+
   <br>
   <button class="btn calendly-btn">Book Appointment</button>
 </section>
-
 <!---   -TESTIMOIALS------>
 <section class="testimonials">
   <h2>What Our Clients Say</h2>
