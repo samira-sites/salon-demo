@@ -241,7 +241,7 @@
     <button class="btn calendly-btn">Book Appointment</button>
   </section>
 
- <!-- CONTACT -->
+<!-- CONTACT -->
 <section id="contact" class="contact">
   <h2 style="margin-top: 0;">Contact Us</h2>
 
@@ -249,10 +249,16 @@
 
     <!-- Contact Form -->
     <div class="contact-form hidden animate-up">
+
+      <!-- NEW: Developer Note -->
+      <p class="developer-note">
+        💡 This is a demo salon website. I design websites for businesses — want one like this? Send me a message!
+      </p>
+
       <form action="process_contact.php" method="POST" id="contactForm">
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="email" placeholder="Your Email" required>
-        <input type="text" name="phone" placeholder="Phone">
+        <input type="text" name="phone" placeholder="Phone / Optional">
         <textarea name="message" placeholder="Your Message" required></textarea>
         <button type="submit" class="btn">Send Message</button>
         <span id="responseMsg"></span>
@@ -273,37 +279,35 @@
       <!-- Info -->
       <div class="info">
         <p>
-          <img src="svg/location.svg" alt="Location" class="icon"> <a href="https://maps.app.goo.gl/nSTh3iMRCUiLUzZN8" target="_blank" class="info-link">
+          <img src="svg/location.svg" alt="Location" class="icon"> 
+          <a href="https://maps.app.goo.gl/nSTh3iMRCUiLUzZN8" target="_blank" class="info-link">
             Panasonic Tower, Kuwait
           </a>
-        
         </p>
         
         <p>
-          <img src="svg/phone.svg" alt="Phone" class="icon"> <a href="tel:+965XXXXXXXX" class="info-link">
-            +965 XXX XXXX
+          <img src="svg/phone.svg" alt="Phone" class="icon"> 
+          <a href="tel:+96567077369" class="info-link">
+            +965 6707 7369
           </a>
-         
         </p>
         
         <p>
-          <img src="svg/email.svg" alt="Email" class="icon"> <a href="mailto:hello@salon.com" class="info-link">
-            hello@nailluxe.com
+          <img src="svg/email.svg" alt="Email" class="icon"> 
+          <a href="mailto:samiraomar.xx@gmail.com" class="info-link">
+            samiraomar.xx@gmail.com
           </a>
-         
         </p>
 
-     <br>
-    <p class="contact-disclaimer">
-      ⚠️ This location is for demo purposes only. Not a real salon.
-    </p>
+        <br>
+        <p class="contact-disclaimer">
+          ⚠️ This location is for demo purposes only. Not a real salon.
+        </p>
       </div>
 
     </div>
   
   </div>
-
-  
 </section>
 
   <!-- FOOTER -->
@@ -330,7 +334,12 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2026 Nail Luxe. All rights reserved.</p>
+      <p>
+        © 2026 Salon Demo — Website by <strong>Samira Omar</strong> | Website Developer  
+        <a href="https://www.linkedin.com/in/samira-omar" target="_blank" aria-label="LinkedIn">
+          <img src="svg/linkedin.svg" class="icon" alt="LinkedIn">
+        </a>
+      </p>
     </div>
   </footer>
 

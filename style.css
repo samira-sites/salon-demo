@@ -604,6 +604,11 @@ header .logo {
   padding: 60px 20px;
   font-family: 'Poppins', sans-serif;
 }
+.developer-note {
+  font-size: clamp(12px, 1.2vw, 16px);
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
 
 .contact-container {
   display: grid;
@@ -813,10 +818,28 @@ footer {
 }
 .footer-bottom {
   text-align: center;
-  border-top: 1px solid #333;
-  padding-top: 20px;
-  font-size: 13px;
-  color: #aaa;
+  padding: 15px;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  transition: 0.3s ease;
+  opacity: 0.8;
+}
+
+.icon:hover {
+  transform: scale(1.15);
+  opacity: 1;
 }
 
 /* FOOTER Mobile */
@@ -829,6 +852,7 @@ footer {
     justify-content: center;
   }
 }
+
 
 /* ================= RESPONSIVE HEADER ======== */
 @media (max-width: 768px) {
