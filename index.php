@@ -287,15 +287,15 @@
         
         <p>
           <img src="svg/phone.svg" alt="Phone" class="icon"> 
-          <a href="tel:+96567077369" class="info-link">
-            +965 6707 7369
+          <a href="tel:+965000000" class="info-link">
+            +965 0000 000
           </a>
         </p>
         
         <p>
           <img src="svg/email.svg" alt="Email" class="icon"> 
-          <a href="mailto:samiraomar.xx@gmail.com" class="info-link">
-            samiraomar.xx@gmail.com
+          <a href="mailto:demosalon.com" class="info-link">
+            demo@salon.com
           </a>
         </p>
 
