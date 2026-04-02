@@ -24,6 +24,7 @@
   <meta property="og:url" content="https://salon.samiraomar.com/">
   <meta property="og:image" content="https://salon.samiraomar.com/images/salon-preview.png">
   <meta property="og:site_name" content="Demo Nail Salon">
+  <meta name="author" content="Samira Omar">
 
   <!-- ===== TWITTER ===== -->
   <meta name="twitter:card" content="summary_large_image">
